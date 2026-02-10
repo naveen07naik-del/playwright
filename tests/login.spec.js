@@ -24,7 +24,7 @@ test("object",async({page})=>{
         await linpage.usernametextfield.fill(usn)
         await linpage.passwordtextfield.fill(pwd)
     await linpage.submitbutton.click()
-    await page.waitForTimeout(3000)
+
 //launch url
 //pass pwd
 //click on submit button
